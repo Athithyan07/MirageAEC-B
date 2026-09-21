@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     # HuggingFace AI Inference Server (Colab A100)
     # Set AI_SERVER_URL to your ngrok URL after starting the Colab server
     AI_SERVER_URL: str = os.getenv("AI_SERVER_URL", "https://goliath-brisket-down.ngrok-free.dev")
-    HF_TOKEN: str = os.getenv("HF_TOKEN", "hf_" + "bjsudGgMwWkfHLSMckmyKUZfBDuZSUvgYg")
+    HF_TOKEN: str = os.getenv("HF_TOKEN", "hf_" + "FIeVkAmVdsmxtrHlJDfwSaJQoCQbijkiyZ")
     AI_TIMEOUT_S: int = int(os.getenv("AI_TIMEOUT_S", "120"))  # 2 min max per stage
     
     # CORS (Supports '*', comma-separated strings 'http://a.com,http://b.com', or JSON lists)

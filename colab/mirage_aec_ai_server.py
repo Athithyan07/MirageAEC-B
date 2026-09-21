@@ -20,7 +20,7 @@ The script will:
 import subprocess, sys, os, time, io, base64, json, threading, re
 import importlib
 
-HF_TOKEN  = "hf_" + "bjsudGgMwWkfHLSMckmyKUZfBDuZSUvgYg"
+HF_TOKEN  = "hf_" + "FIeVkAmVdsmxtrHlJDfwSaJQoCQbijkiyZ"
 NGROK_TOKEN = "3JdFqwfmg" + "TztAxZpPAD2GRi6GvJ_67Xxud6czEdPXiEoNpuvs"
 PORT = 8888
 

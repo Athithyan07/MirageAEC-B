@@ -11,7 +11,7 @@ from typing import Optional
 
 log = logging.getLogger("ai_discovery")
 
-HF_TOKEN = "hf_" + "bjsudGgMwWkfHLSMckmyKUZfBDuZSUvgYg"
+HF_TOKEN = "hf_" + "FIeVkAmVdsmxtrHlJDfwSaJQoCQbijkiyZ"
 HF_REPO  = "Athithyan07/MirageAEC-config"
 HF_FILE  = "server_config.json"
 CACHE_TTL_S = 300  # re-check HF Hub every 5 minutes
