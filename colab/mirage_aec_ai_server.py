@@ -46,17 +46,17 @@ PACKAGES = [
     "qwen-vl-utils",
 ]
 
-print("[1/7] Skipping package installation (already installed)...")
-# for pkg in PACKAGES:
-#     subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", pkg],
-#                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+print("[1/7] Installing required packages...")
+for pkg in PACKAGES:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", pkg],
+                          stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-# # Install SAM2 and GroundingDINO separately (git-based)
-# subprocess.check_call([sys.executable, "-m", "pip", "install", "-q",
-#     "git+https://github.com/facebookresearch/sam2.git"],
-#     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-# subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "groundingdino-py"],
-#     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+# Install SAM2 and GroundingDINO separately (git-based)
+subprocess.check_call([sys.executable, "-m", "pip", "install", "-q",
+    "git+https://github.com/facebookresearch/sam2.git"],
+    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "groundingdino-py"],
+    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 print("[1/7] Packages installed!")
 
