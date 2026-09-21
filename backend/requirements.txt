@@ -14,3 +14,4 @@ numpy>=1.24.0
 aiofiles>=23.0.0
 opencv-python-headless>=4.8.0
 shapely>=2.0.0
+Pillow>=10.0.0
