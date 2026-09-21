@@ -1,0 +1,33 @@
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Databases & Runtime State
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*
+
+# Model weights and caches
+shap_e_model_cache/*.lock
+shap_e_model_cache/*.tmp
+shap_e_model_cache/*.pt
+
+# OS & Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
